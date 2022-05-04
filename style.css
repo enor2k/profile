@@ -1,0 +1,98 @@
+body {
+  background: #efefe7;
+  color: #712774;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #b978ba;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  color: #b978ba;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #712774;
+  }
+
+a:hover {
+  color: #b978ba;
+}
+
+
+.container {
+  width: 800px;
+  margin: 60px auto;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 60px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 7px;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-purple {
+background-color: #712774;
+color: #efefe7;
+padding: 15px 20px;
+border-radius: 7px;
+}
+
+.btn-purple:hover {
+  background-color: #b978ba;
+  color: #712774;
+}
+
+.list{
+list-style: none;
+padding-left: 0px;
+}
+
+.list > li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.list i:hover {
+  color: #b978ba;
+}
+
+#introduction p {
+  margin-bottom: 50px;
+}
